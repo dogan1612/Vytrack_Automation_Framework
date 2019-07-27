@@ -1,6 +1,6 @@
 package com.vytrack.tests.components.login_navigation;
 
-import com.vytrack.utilities.SeleniumUtils;
+
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -12,6 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import utilities.SeleniumUtils;
 
 import java.util.concurrent.TimeUnit;
 
